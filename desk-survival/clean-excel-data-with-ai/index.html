@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clean Messy Excel Data With AI — The Juno Desk</title>
+<meta name="description" content="Duplicates, broken dates, columns that should be three columns. A step-by-step guide to fixing messy spreadsheets with an LLM — no formulas required.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+
+<header>
+  <div class="rule-double"></div>
+  <h1 class="masthead" style="font-size:2rem; padding:10px 0 4px"><a href="/" style="color:inherit;text-decoration:none">The Juno Desk</a></h1>
+  <div class="rule-double"></div>
+  <nav>
+    <a href="/">The Briefing</a>
+    <a href="/desk-survival/" class="active">Desk Survival</a>
+    <a href="/hr-desk/">HR Desk</a>
+    <a href="/about/">About</a>
+  </nav>
+</header>
+
+<main class="wrap article-body">
+
+  <span class="kicker">Desk Survival</span>
+  <h1>Clean Messy Excel Data With AI — Without Learning a Single Formula</h1>
+  <p class="byline">The Juno Desk · 4 min read · Verified guide</p>
+
+  <p class="standfirst">Duplicates with three spellings, dates in four formats, one cell doing the job of three columns. An LLM fixes in minutes what used to eat your Friday afternoon. Here is the exact workflow.</p>
+
+  <p class="lead">Excel sheets are the digital equivalent of a junk drawer: everything is thrown in, nothing is labeled, and someone else's typos are now your problem. Traditional fixes mean mastering VBA scripting or executing hundreds of repetitive keystrokes. Large language models treat data as meaning, not strings — which is why they can see that three differently-spelled companies are the same company.</p>
+
+  <div class="ed-note"><b>Ed. note</b> If you genuinely enjoy fixing date formats by hand, please stop reading and seek help.</div>
+
+  <h2>Why Excel's own tools fail you</h2>
+  <p>"Remove Duplicates" and "Text to Columns" match characters, not intent. They are blind to the fact that "Google", "Google, Inc." and "Google LLC" are one company, or that <code>12/05/2026</code> and <code>May 12, 2026</code> are one date. AI models process language contextually — exactly the skill this mess requires.</p>
+
+  <div class="pullquote">Excel keeps "James Miller" and "Jim Miller" as two loyal customers. Your quarterly report is now fiction.</div>
+
+  <h2>Step 1 — Normalize the formatting</h2>
+  <p>Copy a representative sample of rows, define the exact output you want, and let the model do the tedium.</p>
+
+  <div class="statcard">
+    <div class="num">20–50 rows</div>
+    <div class="lbl">The right sample size to paste into an LLM. Paste thousands and it will hit token limits — or start inventing your customers.</div>
+  </div>
+
+  <div class="prompt-block"><button type="button" class="copy" onclick="navigator.clipboard.writeText(this.parentNode.innerText.replace('COPY','').trim());this.innerText='COPIED';setTimeout(()=>this.innerText='COPY',1500)">Copy</button>You are an expert data analyst. Standardize the raw Excel data below:
+1. All dates to YYYY-MM-DD. Ambiguous dates: output "Check Manual".
+2. All phone numbers to E.164 format (+1234567890).
+3. All names to Title Case.
+Output a markdown table: Raw Input | Cleaned Value | Status.
+
+[paste your rows here]</div>
+
+  <p>Validate the output, paste it back, and for large datasets ask the model to generate a reusable formula or script that applies the same pattern to the rest.</p>
+
+  <h2>Step 2 — Kill the fuzzy duplicates</h2>
+  <p>Ask the model for a two-column mapping table — "Messy Name" to "Master Name" — then apply it with one XLOOKUP. No judgment calls, no squinting at 400 rows.</p>
+
+  <div class="prompt-block"><button type="button" class="copy" onclick="navigator.clipboard.writeText(this.parentNode.innerText.replace('COPY','').trim());this.innerText='COPIED';setTimeout(()=>this.innerText='COPY',1500)">Copy</button>I have client company names with inconsistent spellings and suffixes.
+Group names that refer to the same entity. Output a markdown mapping table:
+"Original Name" | "Standardized Master Name".
+Rules: strip LLC/Corp/Inc variations; group obvious abbreviations;
+use the most complete official name as Master.
+
+[paste your list here]</div>
+
+  <div class="stamp">✓ Works on day one</div>
+
+  <div class="capture">
+    <h3>Get the full prompt pack.</h3>
+    <p>Every prompt in this guide plus 13 more office situations — copy, paste, done.</p>
+    <form action="#" method="post">
+      <input type="email" name="email" placeholder="you@company.com" required>
+      <button type="submit">Get the pack</button>
+    </form>
+  </div>
+
+  <p>Next in Desk Survival: <a href="/desk-survival/emails-that-dont-sound-like-a-robot/" style="color:var(--red)">Write emails that don't sound like a robot wrote them</a>.</p>
+
+</main>
+
+<footer>
+  <div class="links wrap">
+    <a href="/about/">About</a>
+    <a href="/contact/">Contact</a>
+    <a href="/privacy/">Privacy Policy</a>
+    <a href="/terms/">Terms of Service</a>
+  </div>
+  <p class="fine">© 2026 The Juno Desk · junoaihq.com · Some guides include affiliate links, clearly disclosed.</p>
+</footer>
+
+</body>
+</html>
