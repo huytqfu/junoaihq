@@ -135,6 +135,9 @@ article.teaser .pull-line::before { content: "— "; color: var(--red); }
 
 /* Footer */
 footer { border-top: 1px solid var(--slate); margin-top: 30px; padding: 26px 0 46px; text-align: center; }
+.social { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; padding-bottom: 16px; }
+.social a { color: var(--ink); font-weight: 900; font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.1em; text-decoration: none; }
+.social a:hover { color: var(--red); }
 footer .links { display: flex; justify-content: center; gap: 22px; flex-wrap: wrap; padding-bottom: 12px; }
 footer a { color: var(--slate); font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; text-decoration: none; }
 footer a:hover { color: var(--red); }
