@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0" xmlns="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Juno Desk</title>
+    <link>https://junoaihq.com/</link>
+    <description>Verified AI news and practical tool guides for office workers. No hype, no robots-will-kill-us panic. Just what changes your workday.</description>
+    <ns0:link href="https://junoaihq.com/feed.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Jul 2026 14:27:54 GMT</lastBuildDate>
+    <language>en-us</language>
+    <item>
+      <title>Clean Messy Excel Data With AI — Without Learning a Single Formula</title>
+      <link>https://junoaihq.com/desk-survival/clean-excel-data-with-ai/</link>
+      <description>Duplicates, broken dates, columns that should be three columns. A step-by-step guide to fixing messy spreadsheets with an LLM — no formulas required.</description>
+      <pubDate>Sat, 11 Jul 2026 19:48:47 +0700</pubDate>
+      <guid isPermaLink="true">https://junoaihq.com/desk-survival/clean-excel-data-with-ai/</guid>
+    </item>
+    <item>
+      <title>Write Emails and Reports That Don't Sound Like a Robot: The AI Editing SOP</title>
+      <link>https://junoaihq.com/desk-survival/emails-that-dont-sound-like-a-robot/</link>
+      <description>AI drafts your email in ten seconds. Making it sound like you takes a better prompt. Here is the framework, with before-and-after examples.</description>
+      <pubDate>Sat, 11 Jul 2026 19:48:47 +0700</pubDate>
+      <guid isPermaLink="true">https://junoaihq.com/desk-survival/emails-that-dont-sound-like-a-robot/</guid>
+    </item>
+    <item>
+      <title>Survive Meetings with AI: The Complete Transcript-to-Action-Item SOP</title>
+      <link>https://junoaihq.com/desk-survival/survive-meetings-with-ai/</link>
+      <description>The meeting was an hour. The useful part was four sentences. Let AI find them for you — a beginner's workflow that works on day one.</description>
+      <pubDate>Sat, 11 Jul 2026 19:48:47 +0700</pubDate>
+      <guid isPermaLink="true">https://junoaihq.com/desk-survival/survive-meetings-with-ai/</guid>
+    </item>
+  </channel>
+</rss>

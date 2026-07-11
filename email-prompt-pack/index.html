@@ -14,7 +14,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://junoaihq.com/email-prompt-pack/">
   <meta property="og:site_name" content="The Juno Desk">
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:image" content="https://junoaihq.com/og-image.png">
+  <meta name="twitter:image" content="https://junoaihq.com/og-image.png">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="alternate" type="application/rss+xml" title="The Juno Desk" href="/feed.xml">
   <meta name="twitter:site" content="@junoaihq">
   <meta name="twitter:title" content="The Office Email Prompt Pack — The Juno Desk">
   <meta name="twitter:description" content="Get our free collection of 15 copy-paste email prompts optimized for quick editing from your phone. Eliminate corporate jargon and write like a human.">
@@ -85,7 +91,9 @@
     <h3>Download all 15 Prompts</h3>
     <p>Enter your email to receive the raw text file with all 15 situational prompts directly in your inbox. Free, zero spam.</p>
     <!-- TODO: hook email service -->
-    <form action="#" method="post">
+    <form action="/api/subscribe" method="POST">
+      <input type="hidden" name="source" value="email-prompt-pack">
+      <input type="text" name="website" value="" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
       <input type="email" name="email" placeholder="you@company.com" required>
       <button type="submit">Get the Pack</button>
     </form>
@@ -171,7 +179,9 @@ Draft a gentle but clear follow-up email. Ask if they need any support to comple
     <h3>Get the Prompt Pack Sent to Your Email</h3>
     <p>Copy, paste, and customize. Ready to run on any major LLM (Claude, ChatGPT, Gemini).</p>
     <!-- TODO: hook email service -->
-    <form action="#" method="post">
+    <form action="/api/subscribe" method="POST">
+      <input type="hidden" name="source" value="email-prompt-pack">
+      <input type="text" name="website" value="" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
       <input type="email" name="email" placeholder="you@company.com" required>
       <button type="submit">Get the Pack</button>
     </form>

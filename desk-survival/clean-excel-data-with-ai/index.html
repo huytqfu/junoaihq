@@ -14,7 +14,13 @@
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://junoaihq.com/desk-survival/clean-excel-data-with-ai/">
   <meta property="og:site_name" content="The Juno Desk">
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:image" content="https://junoaihq.com/og-image.png">
+  <meta name="twitter:image" content="https://junoaihq.com/og-image.png">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="alternate" type="application/rss+xml" title="The Juno Desk" href="/feed.xml">
   <meta name="twitter:site" content="@junoaihq">
   <meta name="twitter:title" content="Clean Messy Excel Data With AI — The Juno Desk">
   <meta name="twitter:description" content="Duplicates, broken dates, columns that should be three columns. A step-by-step guide to fixing messy spreadsheets with an LLM — no formulas required.">
@@ -152,7 +158,9 @@ use the most complete official name as Master.
   <div class="capture">
     <h3>Get the full prompt pack.</h3>
     <p>Every prompt in this guide plus 13 more office situations — copy, paste, done.</p>
-    <form action="#" method="post">
+    <form action="/api/subscribe" method="POST">
+      <input type="hidden" name="source" value="excel-article">
+      <input type="text" name="website" value="" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
       <input type="email" name="email" placeholder="you@company.com" required>
       <button type="submit">Get the pack</button>
     </form>

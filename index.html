@@ -14,7 +14,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://junoaihq.com/">
   <meta property="og:site_name" content="The Juno Desk">
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:image" content="https://junoaihq.com/og-image.png">
+  <meta name="twitter:image" content="https://junoaihq.com/og-image.png">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="alternate" type="application/rss+xml" title="The Juno Desk" href="/feed.xml">
   <meta name="twitter:site" content="@junoaihq">
   <meta name="twitter:title" content="The Juno Desk — AI news for people with real jobs">
   <meta name="twitter:description" content="Verified AI news and practical tool guides for office workers. No hype, no robots-will-kill-us panic. Just what changes your workday.">
@@ -90,7 +96,9 @@
   <div class="capture">
     <h3>Get the full prompt pack.</h3>
     <p>The exact prompts behind every guide — copy, paste, done. Sent to your work email, where you actually work.</p>
-    <form action="#" method="post">
+    <form action="/api/subscribe" method="POST">
+      <input type="hidden" name="source" value="homepage">
+      <input type="text" name="website" value="" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
       <input type="email" name="email" placeholder="you@company.com" required>
       <button type="submit">Get the pack</button>
     </form>

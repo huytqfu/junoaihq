@@ -14,7 +14,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://junoaihq.com/meeting-survival-pack/">
   <meta property="og:site_name" content="The Juno Desk">
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:image" content="https://junoaihq.com/og-image.png">
+  <meta name="twitter:image" content="https://junoaihq.com/og-image.png">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="alternate" type="application/rss+xml" title="The Juno Desk" href="/feed.xml">
   <meta name="twitter:site" content="@junoaihq">
   <meta name="twitter:title" content="The Meeting Survival Pack — The Juno Desk">
   <meta name="twitter:description" content="Get our free collection of 10 essential meeting prompts optimized for ChatGPT, Claude, and Gemini to extract action items, summarize transcripts, and prep talking points.">
@@ -85,7 +91,9 @@
     <h3>Download all 10 Prompts</h3>
     <p>Enter your email to receive the raw text file with all 10 situational meeting prompts directly in your inbox. Free, zero spam.</p>
     <!-- TODO: hook email service -->
-    <form action="#" method="post">
+    <form action="/api/subscribe" method="POST">
+      <input type="hidden" name="source" value="meeting-survival-pack">
+      <input type="text" name="website" value="" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
       <input type="email" name="email" placeholder="you@company.com" required>
       <button type="submit">Get the Pack</button>
     </form>
@@ -171,7 +179,9 @@ Generate a structured guide for me to use during the meeting. Include:
     <h3>Get the Meeting Survival Pack Sent to Your Email</h3>
     <p>Reclaim your time. Copy, paste, and run on Claude, ChatGPT, or Gemini.</p>
     <!-- TODO: hook email service -->
-    <form action="#" method="post">
+    <form action="/api/subscribe" method="POST">
+      <input type="hidden" name="source" value="meeting-survival-pack">
+      <input type="text" name="website" value="" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
       <input type="email" name="email" placeholder="you@company.com" required>
       <button type="submit">Get the Pack</button>
     </form>
