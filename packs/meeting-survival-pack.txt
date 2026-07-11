@@ -1,0 +1,130 @@
+The Meeting Survival Pack — The Juno Desk
+Instructions: Copy any prompt block, paste it into ChatGPT, Claude, or Gemini, fill in the bracketed inputs, and run.
+
+### Situation 1: Summarizing a Meeting Transcript into Minutes
+Role: Professional Executive Assistant
+Task: Summarize a raw, messy meeting transcript into clean minutes.
+
+--- USER INPUTS ---
+Meeting Topic: [E.g., Q3 Marketing Planning]
+Participants: [E.g., Sarah, Dave, Jessica]
+Transcript:
+[Paste raw transcript or key notes here]
+-------------------
+
+Analyze the transcript above. Generate structured meeting minutes including:
+1. Executive Summary (2-3 sentences)
+2. Key Topics Discussed (with brief summaries)
+3. Decisions Made
+Keep it concise, clear, and easy to read.
+
+### Situation 2: Extracting Action Items and Responsibilities
+Role: Detail-Oriented Project Manager
+Task: Extract actionable tasks, assignees, and deadlines from meeting notes.
+
+--- USER INPUTS ---
+Transcript / Notes:
+[Paste transcript or meeting notes here]
+-------------------
+
+Identify all explicit and implicit action items from the text. Present them as a structured table with columns: "Action Item", "Assignee", and "Deadline/Status". If an assignee or deadline is not specified, write "TBD".
+
+### Situation 3: Generating Personal Talking Points Before a Meeting
+Role: Strategic Advisory Expert
+Task: Prepare a personalized checklist of talking points and questions for an upcoming meeting.
+
+--- USER INPUTS ---
+Meeting Title: [E.g., Cross-team Budget Alignment]
+Meeting Agenda/Goal: [E.g., decide on resource sharing for Q3 project]
+My Role: [E.g., Marketing Lead advocating for more designer hours]
+My Key Concerns: [E.g., current designs are delayed by 5 days on average]
+-------------------
+
+Generate a structured guide for me to use during the meeting. Include:
+1. A 30-second elevator pitch for my case.
+2. 3-4 key bullet points to highlight.
+3. 2 strategic questions to ask other teams.
+
+### Situation 4: Writing a Meeting Recap Email
+Role: Efficient Project Coordinator
+Task: Draft a clean meeting recap email to distribute to the team.
+
+--- USER INPUTS ---
+Meeting Topic: [E.g., Q3 Content Calendar Review]
+Key Decisions: [E.g., approved 5 video topics, postponed the email newsletter launch to August]
+Action Items & Assignees: [E.g., Jessica to finalize scripts by Friday, Tom to contact influencers by Monday]
+-------------------
+
+Draft a concise, professional recap email. Lead with a one-sentence summary of the meeting's outcome, then list the key decisions and action items with assignees clearly. Keep the format highly scannable and direct. Avoid any corporate filler. Limit to 120 words.
+
+### Situation 5: Deciding Whether to Skip a Meeting
+Role: Productivity Advocate
+Task: Analyze a meeting invitation and draft a polite email requesting to skip it and send a status update instead.
+
+--- USER INPUTS ---
+Meeting Title & Agenda: [E.g., Weekly Sync on Website Launch]
+My Role/Involvement: [E.g., frontend developer with no major updates this week]
+Proposed Alternative: [E.g., I will send my bulleted status update by 9 AM Friday, and review the meeting notes after]
+-------------------
+
+Draft a polite email to the meeting host. Explain that I have no updates that require real-time discussion this week, propose sending my status in writing instead, and ask if they are comfortable with me skipping. Keep the tone collaborative, professional, and respectful of everyone's time. Limit to 100 words.
+
+### Situation 6: Addressing Post-Meeting Misalignments
+Role: Diplomatic Project Lead
+Task: Draft an email to resolve a post-meeting task or boundary misalignment.
+
+--- USER INPUTS ---
+Recipient Name: [Colleague's Name]
+Misaligned Task: [E.g., designing the new ad creatives, which was assigned to me but belongs to the graphics team]
+Proposed Clarification: [E.g., I will handle copywriting, but the graphics team should own the visual designs as agreed in the Q2 planning]
+-------------------
+
+Draft a diplomatic, professional email to clarify the task ownership. Acknowledge the conversation from the meeting, explain the misalignment calmly, and propose the correct boundary or redirection. Keep the tone collaborative and solution-focused, avoiding blame. Under 120 words.
+
+### Situation 7: Collaborative Brainstorming Prompts
+Role: Facilitation Expert
+Task: Generate a list of interactive discussion questions and brainstorming exercises for a workshop.
+
+--- USER INPUTS ---
+Brainstorming Topic: [E.g., increasing user engagement on our mobile app]
+Team/Audience: [E.g., product designers and marketers]
+Goal: [E.g., identify 3 low-cost experiments we can run next month]
+-------------------
+
+Generate a structured agenda of 3-4 open-ended, creative brainstorming questions or exercises. The prompts should trigger discussion, break the ice, and guide the team toward the stated goal. Keep the instructions for each exercise simple and action-oriented. Limit to 150 words.
+
+### Situation 8: Compelling Invitations
+Role: Strategic Meeting Organizer
+Task: Write a compelling meeting invitation description.
+
+--- USER INPUTS ---
+Meeting Topic: [E.g., Design System Launch Plan]
+The Goal: [E.g., align on timeline for releasing the component library]
+Pre-work/Prep Needed: [E.g., read the design specs document linked below]
+Agenda: [E.g., 10 mins timeline review, 15 mins blocker discussion, 5 mins next steps]
+-------------------
+
+Draft a structured meeting invitation description. State the meeting goal clearly in the first sentence. Outline the agenda in bullet points, specify any pre-work required, and explain why their attendance is critical. Keep it concise, organized, and professional. Limit to 120 words.
+
+### Situation 9: Extracting Decisions and the "Why"
+Role: Corporate Historian & Analyst
+Task: Extract decisions made, options considered, and the underlying rationale ("the why") from meeting transcripts/notes.
+
+--- USER INPUTS ---
+Raw Meeting Notes:
+[Paste raw notes or transcript section here]
+-------------------
+
+Analyze the meeting notes above. Extract each major decision made, the options that were considered and rejected, and the rationale for the final choice. Present this as a structured list: "Decision", "Rejected Options", and "Rationale". Keep it direct and factual, omitting filler words. Limit to 150 words.
+
+### Situation 10: Converting Notes to Updates
+Role: Technical Communications Writer
+Task: Convert a messy, unstructured brain dump of meeting notes into clean project highlights.
+
+--- USER INPUTS ---
+Raw Brain Dump:
+[Paste messy notes or stream-of-consciousness bullet points here]
+Target Audience: [E.g., Executive Leadership Team or Project Team]
+-------------------
+
+Reorganize the raw brain dump into a clean, professional status update tailored for the target audience. Focus on outcomes, achievements, and upcoming milestones. Use bullet points and active verbs. Remove all conversational filler, typos, and irrelevant details. Keep it under 150 words.

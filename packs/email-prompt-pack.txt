@@ -1,0 +1,193 @@
+The Office Email Prompt Pack — The Juno Desk
+Instructions: Copy any prompt block, paste it into ChatGPT, Claude, or Gemini, fill in the bracketed inputs, and run.
+
+### Situation 1: Requesting Time Off / Vacation
+Role: Professional Office Assistant
+Task: Write a polite email requesting time off.
+
+--- USER INPUTS ---
+Manager Name: [Manager's Name]
+Start Date: [Start Date, e.g., Oct 12]
+End Date: [End Date, e.g., Oct 16]
+Coverage Person: [Colleague's Name, or "None"]
+Reason (Optional): [E.g., personal family matters]
+-------------------
+
+Draft a professional email to my manager requesting time off. State the dates clearly, mention who will cover my urgent tasks, and assure them I will complete pending work before I leave. Keep it under 150 words.
+
+### Situation 2: Politely Declining Additional Tasks
+Role: Professional Communications Expert
+Task: Decline an extra task politely due to bandwidth.
+
+--- USER INPUTS ---
+Sender Name: [Colleague/Manager's Name]
+Task Offered: [E.g., helping with the Q3 report]
+Current Priorities: [E.g., finishing the client onboarding project]
+-------------------
+
+Draft a polite email to decline the task. Acknowledge the importance of their request, explain that my current priorities (listed above) do not leave me enough bandwidth to do it justice, and suggest an alternative timeline or colleague if possible. Keep it professional and collaborative.
+
+### Situation 3: Reminding a Colleague of a Missed Deadline
+Role: Diplomatic Project Manager
+Task: Write a gentle but firm follow-up for a late deliverable.
+
+--- USER INPUTS ---
+Colleague Name: [Colleague's Name]
+Missing Deliverable: [E.g., the design assets]
+Original Deadline: [E.g., yesterday at 5 PM]
+Impact: [E.g., we cannot finalize the client proposal without it]
+-------------------
+
+Draft a gentle but clear follow-up email. Ask if they need any support to complete it, remind them of the original deadline, and explain the downstream impact of the delay. Keep the tone collaborative rather than accusatory.
+
+### Situation 4: Reporting a Problem to Your Manager
+Role: Proactive Operations Specialist
+Task: Report a workplace issue to your manager with proposed solutions.
+
+--- USER INPUTS ---
+Manager Name: [Manager's Name]
+The Issue: [E.g., the database integration failed, delaying client onboarding]
+Impact: [E.g., we cannot onboard the 15 new clients scheduled for Monday]
+Proposed Solutions: [E.g., Option A: manually process signups, Option B: delay onboarding to Tuesday]
+-------------------
+
+Draft a professional, direct email to my manager reporting the issue. State the problem clearly in the first sentence without sugarcoating, explain the downstream impact, and present the proposed solutions with a recommendation. 
+Tone constraints: Write like a competent colleague. Use a direct, professional, yet casual tone. Do NOT use corporate clichés, fluff, or robotic phrases (like delve, testament, moreover, foster, seamlessly, or "apologize for any inconvenience"). Keep it under 120 words.
+
+### Situation 5: Following Up with a Silent Client
+Role: Low-Friction Account Manager
+Task: Follow up with a client who went silent after receiving a proposal.
+
+--- USER INPUTS ---
+Client Name: [Client's Name]
+Proposal Sent: [E.g., the Q3 SEO strategy document]
+Date Sent: [E.g., last Tuesday]
+Low-Friction Question: [E.g., if the scope covers what they need, or if they want to adjust the project timeline]
+-------------------
+
+Draft a brief, low-pressure follow-up email. Do NOT use pushy sales pitches, ask "if you've had a chance to look", or start with greeting clichés. State the name of the proposal, reference the date sent, and ask the low-friction question. Vary sentence lengths and write with the brevity of a text message so it reads well on a phone. Keep it under 80 words.
+
+### Situation 6: Requesting a Salary Review Meeting
+Role: Value-Centric Career Advocate
+Task: Request a dedicated meeting to discuss compensation and scope changes.
+
+--- USER INPUTS ---
+Manager Name: [Manager's Name]
+Key Wins & Impact: [E.g., took over training for 3 junior members, improved campaign ROI by 15%]
+Time in Role: [E.g., 18 months since last review]
+-------------------
+
+Draft a professional email to my manager requesting a meeting to review my compensation. Focus on value-centric phrasing, highlighting the key wins and expanded scope. Do NOT demand an immediate raise or sound apologetic/defensive. Simply request a dedicated time to discuss how my compensation aligns with this expanded scope. Keep it under 120 words.
+
+### Situation 7: Drafting a Self-Performance Review
+Role: Performance Review Analyst
+Task: Write a concise self-performance review paragraph.
+
+--- USER INPUTS ---
+Focus Area: [E.g., onboarding pipeline optimization]
+Key Actions: [E.g., simplified database queries, rebuilt onboarding form]
+Quantifiable Metrics: [E.g., cut setup time by 40%, processed 200 new accounts]
+-------------------
+
+Draft a high-impact self-performance review paragraph. Use strong, active verbs (e.g., rebuilt, optimized, processed) and focus on the quantifiable metrics provided. Avoid passive statements (like "was responsible for") and corporate fluff (like synergy, seamlessly, foster, testament). Keep it concise, professional, and impact-driven. Limit to 120 words.
+
+### Situation 8: Apologizing Professionally for a Mistake
+Role: Accountable Professional
+Task: Own a mistake and present corrective steps immediately.
+
+--- USER INPUTS ---
+Recipient Name: [Manager/Client Name]
+The Mistake: [E.g., sent the outdated slide deck to the stakeholders]
+Corrective Steps Taken: [E.g., recalled the email and sent the updated deck]
+Preventive Action: [E.g., renamed outdated templates to prevent mix-ups]
+-------------------
+
+Draft a direct email addressing the mistake. State what went wrong clearly, own the error without being overly defensive, and immediately detail the corrective and preventive actions. Do NOT use passive voice or cliché phrasing like "apologize for any inconvenience." Keep it professional, constructive, and action-oriented. Under 100 words.
+
+### Situation 9: Responding to Critical Feedback
+Role: Constructive Communicator
+Task: Acknowledge tough critiques constructively and move forward.
+
+--- USER INPUTS ---
+Sender Name: [Manager/Client Name]
+Critical Feedback: [E.g., the copywriting draft lacks a clear hook and is too long]
+Next Steps: [E.g., cutting the intro by half, starting with the primary statistic]
+-------------------
+
+Draft a professional response to the feedback. Acknowledge and validate their critique, then outline the specific next steps to address the concern. Keep the tone collaborative, objective, and action-oriented. Do not make excuses, complain, or write defensive filler. Keep it under 120 words.
+
+### Situation 10: Cold Networking Outreach
+Role: Professional Networker
+Task: Write a low-pressure cold email requesting a brief informational chat.
+
+--- USER INPUTS ---
+Target Name: [Recipient's Name]
+Specific Area of Interest: [E.g., their transition from engineering to product management]
+Mutual Context (if any): [E.g., both grew up in Boston, or "None"]
+-------------------
+
+Draft a low-friction, polite cold email to request a brief informational chat. State why you are reaching out to them specifically, highlight the mutual context, and make a small, easy-to-accept ask (e.g., a 15-minute Zoom call). Keep the tone respectful, curious, and concise. Do not sell anything or ask for a job. Under 100 words.
+
+### Situation 11: OOO Handover Sync
+Role: Organized Project Lead
+Task: Draft an out-of-office handover email before departing.
+
+--- USER INPUTS ---
+Team/Manager Name: [Team Name/Manager Name]
+Vacation Dates: [E.g., July 15 to July 20]
+Active Projects & Designated Owners: [E.g., Q3 design sprint covered by Sarah, client queries covered by Tom]
+Emergency Protocol: [E.g., Slack DM for emergencies only]
+-------------------
+
+Draft a structured OOO handover email. State the dates clearly, list each active project with its designated coverage person, and explain the emergency contact protocol. Keep the format highly scannable (using bullet points) and easy to read from a phone. Limit to 120 words.
+
+### Situation 12: Requesting Budget or Resources
+Role: Business Case Analyst
+Task: Write a proposal email requesting budget or tools.
+
+--- USER INPUTS ---
+Manager Name: [Manager's Name]
+Resource Requested: [E.g., a subscription to the premium design assets library]
+Cost: [E.g., $90/month]
+Data-Backed ROI: [E.g., saves 6 design hours per project, cutting layout time by half]
+-------------------
+
+Draft a professional email requesting budget or resources. State what is needed and the cost, then immediately justify the request using the data-backed ROI inputs. Focus on efficiency gains and time/cost savings. Keep the tone analytical, clear, and business-focused. Limit to 120 words.
+
+### Situation 13: Setting Boundaries on After-Hours Emails
+Role: Diplomatic Boundary Setter
+Task: Acknowledge a late-night email and set professional boundaries.
+
+--- USER INPUTS ---
+Sender Name: [Manager/Client Name]
+Late-Night Query: [E.g., request for ad metrics sent at 8 PM on Friday]
+Resolution/Response Time: [E.g., will pull the metrics first thing Monday morning]
+-------------------
+
+Draft a polite but firm email responding to a late-night message. Acknowledge receipt of the query, state when it will be resolved, and protect after-hours/weekend boundaries without sounding confrontational or apologetic. Limit to 80 words.
+
+### Situation 14: Welcoming a New Colleague
+Role: Collaborative Team Lead
+Task: Write a warm welcome email outlining a new hire's first day.
+
+--- USER INPUTS ---
+New Hire Name: [New Hire's Name]
+Role: [E.g., Growth Marketer]
+Start Date: [E.g., Monday, July 20]
+First-Day Schedule: [E.g., 9:30 AM coffee & team sync, 11 AM IT setup, 12:30 PM team lunch]
+-------------------
+
+Draft a warm welcome email to the new hire. Outline what they can expect on their first day and share the initial schedule/checklist to help reduce first-day anxiety. Keep the tone friendly, informal, and clear. Under 120 words.
+
+### Situation 15: Professional Resignation
+Role: Professional Transition Specialist
+Task: Write a formal resignation email to your manager.
+
+--- USER INPUTS ---
+Manager Name: [Manager's Name]
+Current Role: [E.g., Account Executive]
+Last Day: [E.g., August 1]
+Transition Plan: [E.g., compiling account transition notes and completing pending reviews]
+-------------------
+
+Draft a professional resignation email. Clearly state my decision to resign, my role, and my last day. Express gratitude for the opportunities, offer to help during the transition, and mention the handover plan. Keep the tone positive, professional, and clean. Limit to 120 words.
