@@ -1,0 +1,20 @@
+# The Juno Desk
+
+> Verified AI news and practical tool guides for office workers who want to understand artificial intelligence without the hype.
+
+## Core Pages
+- [Homepage](https://junoaihq.com/): AI briefing, news, and survival manual overview for non-technical office workers.
+- [About](https://junoaihq.com/about/): Our mission, editorial standards, and affiliate disclosure.
+- [Contact](https://junoaihq.com/contact/): Get in touch with us for partnerships, advertising, or general inquiries.
+- [Privacy Policy](https://junoaihq.com/privacy/): How we handle your information and respect your digital boundaries.
+- [Terms of Service](https://junoaihq.com/terms/): Terms governing your use of our site and resources.
+
+## Desk Survival Guides
+- [Desk Survival Index](https://junoaihq.com/desk-survival/): Practical manual and frameworks to survive email, spreadsheet, and meeting chaos.
+- [Clean Messy Excel Data With AI](https://junoaihq.com/desk-survival/clean-excel-data-with-ai/): Step-by-step guide to normalizing spreadsheet formats and cleaning fuzzy duplicates with AI.
+- [Write Emails That Don't Sound Like a Robot](https://junoaihq.com/desk-survival/emails-that-dont-sound-like-a-robot/): The AI Editing SOP and Tone Blueprint framework to strip robotic gloss from work emails.
+- [Survive Meetings With AI](https://junoaihq.com/desk-survival/survive-meetings-with-ai/): Beginner-friendly workflow using Otter.ai/NotebookLM to extract decisions, action items, and parking lot points from transcripts.
+
+## Free Prompt Workspace Packs
+- [Office Email Prompt Pack](https://junoaihq.com/email-prompt-pack/): Free mobile-optimized copy-paste templates for vacation requests, declining tasks, and following up on deadlines.
+- [Meeting Survival Pack](https://junoaihq.com/meeting-survival-pack/): Free copy-paste prompts optimized for ChatGPT, Claude, and Gemini to generate meeting minutes, action items, and pre-meeting talking points.
