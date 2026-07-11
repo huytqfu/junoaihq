@@ -133,6 +133,11 @@ article.teaser .pull-line {
 }
 article.teaser .pull-line::before { content: "— "; color: var(--red); }
 
+/* Broadsheet Table Styles */
+table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 0.92rem; line-height: 1.5; }
+th, td { padding: 10px 12px; border-bottom: 1px solid rgba(90,95,102,0.25); text-align: left; vertical-align: top; }
+th { font-family: 'Playfair Display', Georgia, serif; font-weight: 700; color: var(--ink); border-bottom: 2px solid var(--slate); }
+
 /* Footer */
 footer { border-top: 1px solid var(--slate); margin-top: 30px; padding: 26px 0 46px; text-align: center; }
 .social { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; padding-bottom: 16px; }

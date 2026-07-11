@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Survive Meetings With AI: Transcript In, Action Items Out — The Juno Desk</title>
+<meta name="description" content="The meeting was an hour. The useful part was four sentences. Let AI find them for you — a beginner's workflow that works on day one.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+
+<header>
+  <div class="rule-double"></div>
+  <h1 class="masthead" style="font-size:2rem; padding:10px 0 4px"><a href="/" style="color:inherit;text-decoration:none">The Juno Desk</a></h1>
+  <div class="rule-double"></div>
+  <nav>
+    <a href="/">The Briefing</a>
+    <a href="/desk-survival/" class="active">Desk Survival</a>
+    <a href="/hr-desk/">HR Desk</a>
+    <a href="/about/">About</a>
+  </nav>
+</header>
+
+<main class="wrap article-body">
+
+  <span class="kicker">Desk Survival</span>
+  <h1>Survive Meetings with AI: The Complete Transcript-to-Action-Item SOP</h1>
+  <p class="byline">The Juno Desk · 5 min read · Verified guide</p>
+
+  <p class="standfirst">The meeting was an hour. The useful part was four sentences. Let AI find them for you — a beginner's workflow that works on day one.</p>
+
+  <p class="lead">Most meetings are ninety-minute discussions that could have been a ten-word Slack message. Instead of losing your sanity trying to type notes and speak at the same time, you can let an AI record, transcribe, and summarize the whole ordeal. If you have ever walked out of a status sync only to immediately forget who is responsible for what task, you need a system that captures decisions automatically.</p>
+
+  <div class="ed-note"><b>Ed. note</b> Designated note-takers are a relic of the office past. Your AI assistant works for free.</div>
+
+  <h2>The Core Concept: Transcript to Minutes</h2>
+  <p>A transcript is a raw, messy record of everything said. It includes verbal filler ("um", "uh"), off-topic banter, and half-formed thoughts. A transcript is useful for record-keeping, but it is too long to be read. Your goal is to run this raw transcript through an AI pipeline to filter out the noise and extract three critical components: Key Decisions, Action Items, and Parking Lot items. By structuring your meeting summaries this way, you ensure that the momentum of the meeting translates directly into execution.</p>
+
+  <h2>Step 1: Capturing the Transcript (Choose Your Tool)</h2>
+  <p>Before you can summarize a meeting, you need to record it. How you do this depends on the meeting platform and your organization's IT permissions.</p>
+
+  <h3>Option A: Native Platform Transcription (Zoom, Teams, Google Meet)</h3>
+  <ul>
+    <li><b>Zoom:</b> Start your meeting, click "Captions" or "Transcript" on the bottom menu, and select "Enable Transcription". After the meeting, download the text file from your Zoom Cloud portal.</li>
+    <li><b>Microsoft Teams:</b> Click the "More" button (three dots) at the top of the meeting window, select "Record and transcribe", and click "Start transcription". The file is in the chat history immediately after the meeting.</li>
+    <li><b>Google Meet:</b> Click the Activities icon (shapes) at the bottom right, select "Transcripts", and click "Start transcription". Once finished, a Google Doc link is emailed to the host.</li>
+  </ul>
+
+  <h3>Option B: Dedicated AI Meeting Assistants</h3>
+  <p>If you want a tool that automatically joins your calendar invites, records, and transcribes without manual button-pressing, use a third-party assistant like Otter.ai or Fathom. These tools run in the background, identify speakers by name, and provide clean time-stamped text files.</p>
+
+  <div class="pullquote">AI transcription is the difference between a productive follow-up and a collective memory gap.</div>
+
+  <h2>Step 2: The Meeting-to-Minutes Prompt SOP</h2>
+  <p>Once you have downloaded your transcript as a text file, do not copy and paste the entire file into a basic chatbot window and say "summarize this." The output will be a generic, vague paragraph. Instead, use a structured prompt that forces the AI to extract specific details.</p>
+
+  <div class="statcard">
+    <h3>The SOP:</h3>
+    <ol>
+      <li><b>Format the transcript:</b> Ensure speaker names are clearly defined (e.g., "John:", "Sarah:").</li>
+      <li><b>Input the context:</b> Tell the AI the title of the meeting, the date, and the primary objective of the project.</li>
+      <li><b>Apply the extraction template:</b> Use the prompt below to generate a highly structured markdown table.</li>
+      <li><b>Audit the output:</b> Ensure the AI did not assign tasks to the wrong person or invent deadlines.</li>
+    </ol>
+  </div>
+
+  <div class="prompt-block"><button type="button" class="copy" onclick="navigator.clipboard.writeText(this.parentNode.innerText.replace('COPY','').trim());this.innerText='COPIED';setTimeout(()=>this.innerText='COPY',1500)">Copy</button>You are an elite executive assistant. Below is the raw transcript of a project status meeting. 
+Your task is to analyze the conversation and generate a structured summary document.
+
+Format the output using this structure:
+1. **Meeting Metadata:** Project Name, Date, Attendees.
+2. **Executive Summary (2-3 sentences):** A high-level overview of the meeting's main focus.
+3. **Key Decisions Made:** A bulleted list of finalized decisions.
+4. **Action Items Table:** A markdown table containing: Task | Owner | Due Date.
+5. **Parking Lot Items:** A list of unresolved topics to be addressed later.
+
+Rules:
+- Only extract tasks that were explicitly assigned to a person. If a task was mentioned but no owner was named, list the owner as "TBD".
+- If no specific due date was mentioned, write "Next Sync".
+- Exclude casual banter, greetings, and scheduling issues.
+
+Raw Transcript:
+---
+[Insert your transcript text here]
+---</div>
+
+  <div class="capture">
+    <h3>Get the Meeting Survival Pack.</h3>
+    <p>Every prompt in this guide plus 9 more meeting productivity prompts (recap emails, skip decisions, brainstorming sessions) — copy, paste, done.</p>
+    <p><a href="/meeting-survival-pack/" style="color:var(--red); font-weight:bold; text-decoration:underline;">Go to the Meeting Survival Pack →</a></p>
+  </div>
+
+  <h2>Step 3: Using NotebookLM for Multi-Meeting Synthesis</h2>
+  <p>Sometimes your bottleneck isn't summarizing a single meeting; it's keeping track of project history across a series of weekly syncs. Google’s NotebookLM is a free tool designed specifically for this scenario. It creates a private notebook where you can upload up to 50 sources (including PDF transcripts, audio recordings, or Google Docs) and query them collectively.</p>
+
+  <p><b>Example Queries for NotebookLM:</b></p>
+  <ul>
+    <li><i>"What blockers did Sarah raise during the month of June, and have they been resolved yet?"</i></li>
+    <li><i>"Create a timeline of all decisions made regarding the homepage design change, citing which meeting date each decision occurred."</i></li>
+    <li><i>"Who was assigned the task of contacting the vendor, and what was the agreed-upon budget limit discussed in our second meeting?"</i></li>
+  </ul>
+
+  <h2>Before & After Summary Example</h2>
+  <p>To see why a structured SOP is necessary, compare these two summary styles:</p>
+
+  <h3>The Robotic "Paragraph" Summary (Bad)</h3>
+  <p style="font-style:italic; padding-left:14px; border-left:2px solid var(--slate); color:var(--slate);">"The team met to discuss the Q3 launch. John talked about the website development and said it was on track. Sarah mentioned that the marketing materials are waiting for copy approval. There was a discussion about the budget, and David said we might need to adjust it next month. The meeting ended with scheduling the next sync."</p>
+
+  <h3>The Actionable "SOP" Summary (Good)</h3>
+  <div style="background:#fff; border:1px solid rgba(90,95,102,0.25); padding:20px; border-radius:2px; margin:15px 0;">
+    <p><b>Executive Summary:</b> The team synced on Q3 launch preparations, focusing on website deployment timelines and marketing asset approval.</p>
+    <p><b>Key Decisions:</b></p>
+    <ul>
+      <li>The launch date is officially locked for September 15th.</li>
+      <li>The backup domain will be hosted on Namecheap.</li>
+    </ul>
+    <p><b>Action Items:</b></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Task</th>
+          <th>Owner</th>
+          <th>Due Date</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Push finalized landing page design to staging environment</td>
+          <td>John</td>
+          <td>Aug 10</td>
+        </tr>
+        <tr>
+          <td>Send revised ad copy to compliance team for review</td>
+          <td>Sarah</td>
+          <td>Aug 12</td>
+        </tr>
+        <tr>
+          <td>Draft updated Q3 budget projection sheet</td>
+          <td>David</td>
+          <td>Next Sync</td>
+        </tr>
+      </tbody>
+    </table>
+    <p><b>Parking Lot:</b></p>
+    <ul>
+      <li>Determining the paid media spend limits for Q4 (tabled until budget projection sheet is complete).</li>
+    </ul>
+  </div>
+
+  <div class="stamp">✓ Reclaim Your Time</div>
+
+  <h2>Actionable Tips for Beginners</h2>
+  <ul>
+    <li><b>Warn your attendees:</b> If you are using an AI bot that auto-joins the call (like Otter or Fathom), standard business etiquette is to announce at the start of the meeting that the session is being recorded for notes.</li>
+    <li><b>Clarify assignments out loud:</b> AI can only transcribe what is spoken. If you wrap up a discussion by saying "someone should look into that," the AI will assign the task to "TBD". Get into the habit of concluding topics by stating, <i>"Okay, John is taking the action item to research this vendor by next Tuesday."</i></li>
+    <li><b>Keep a clean archive:</b> Store all meeting transcripts and summaries in a single shared drive folder sorted by date. This creates a searchable paper trail for your team.</li>
+  </ul>
+
+  <hr style="border:0; border-top:1px solid rgba(90,95,102,0.35); margin:30px 0;">
+
+  <p>Read next in Desk Survival: <a href="/desk-survival/emails-that-dont-sound-like-a-robot/" style="color:var(--red)">Write emails that don't sound like a robot wrote them</a> or go back to <a href="/desk-survival/clean-excel-data-with-ai/" style="color:var(--red)">Clean messy Excel data with AI</a>.</p>
+
+</main>
+
+<footer>
+  <div class="social wrap">
+    <a href="https://www.tiktok.com/@junoaihq" target="_blank" rel="noopener">TikTok</a>
+    <a href="https://x.com/junoaihq" target="_blank" rel="noopener">X</a>
+    <a href="https://www.instagram.com/junoaihq" target="_blank" rel="noopener">Instagram</a>
+    <a href="https://www.threads.com/@junoaihq" target="_blank" rel="noopener">Threads</a>
+    <a href="https://www.facebook.com/junoaihq" target="_blank" rel="noopener">Facebook</a>
+    <a href="https://www.youtube.com/@junoaihq" target="_blank" rel="noopener">YouTube</a>
+  </div>
+  <div class="links wrap">
+    <a href="/about/">About</a>
+    <a href="/contact/">Contact</a>
+    <a href="/privacy/">Privacy Policy</a>
+    <a href="/terms/">Terms of Service</a>
+  </div>
+  <p class="fine">© 2026 The Juno Desk · junoaihq.com · Some guides include affiliate links, clearly disclosed.</p>
+</footer>
+
+</body>
+</html>
