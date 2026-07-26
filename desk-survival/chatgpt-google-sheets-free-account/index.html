@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ChatGPT For Google Sheets On A Free Account — The Juno Desk</title>
+<meta name="description" content="We followed the viral install steps on a real free account. 154 add-ons came back, none published by OpenAI. Here are the two free methods that actually finish the job.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../style.css">
+  <link rel="canonical" href="https://junoaihq.com/desk-survival/chatgpt-google-sheets-free-account/">
+  <meta property="og:title" content="ChatGPT For Google Sheets On A Free Account — The Juno Desk">
+  <meta property="og:description" content="We followed the viral install steps on a real free account. 154 add-ons came back, none published by OpenAI. Here are the two free methods that actually finish the job.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://junoaihq.com/desk-survival/chatgpt-google-sheets-free-account/">
+  <meta property="og:site_name" content="The Juno Desk">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:image" content="https://junoaihq.com/og-image.png">
+  <meta name="twitter:image" content="https://junoaihq.com/og-image.png">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="alternate" type="application/rss+xml" title="The Juno Desk" href="/feed.xml">
+  <meta name="twitter:site" content="@junoaihq">
+  <meta name="twitter:title" content="ChatGPT For Google Sheets On A Free Account — The Juno Desk">
+  <meta name="twitter:description" content="We followed the viral install steps on a real free account. 154 add-ons came back, none published by OpenAI. Here are the two free methods that actually finish the job.">
+  <meta name="robots" content="index, follow">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://junoaihq.com/desk-survival/chatgpt-google-sheets-free-account/#article",
+      "isPartOf": {
+        "@id": "https://junoaihq.com/desk-survival/chatgpt-google-sheets-free-account/#webpage"
+      },
+      "headline": "ChatGPT For Google Sheets: What A Free Account Actually Gets",
+      "description": "We followed the viral install steps on a real free account. 154 add-ons came back, none published by OpenAI. Here are the two free methods that actually finish the job.",
+      "datePublished": "2026-07-26T21:30:00+07:00",
+      "dateModified": "2026-07-26T21:30:00+07:00",
+      "mainEntityOfPage": "https://junoaihq.com/desk-survival/chatgpt-google-sheets-free-account/",
+      "author": {
+        "@type": "Organization",
+        "name": "The Juno Desk",
+        "url": "https://junoaihq.com/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "The Juno Desk",
+        "url": "https://junoaihq.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://junoaihq.com/desk-survival/chatgpt-google-sheets-free-account/#webpage",
+      "url": "https://junoaihq.com/desk-survival/chatgpt-google-sheets-free-account/",
+      "name": "ChatGPT For Google Sheets On A Free Account — The Juno Desk",
+      "breadcrumb": {
+        "@id": "https://junoaihq.com/desk-survival/chatgpt-google-sheets-free-account/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://junoaihq.com/desk-survival/chatgpt-google-sheets-free-account/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://junoaihq.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Desk Survival",
+          "item": "https://junoaihq.com/desk-survival/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "ChatGPT For Google Sheets",
+          "item": "https://junoaihq.com/desk-survival/chatgpt-google-sheets-free-account/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://junoaihq.com/desk-survival/chatgpt-google-sheets-free-account/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is there an official OpenAI add-on for Google Sheets?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "On a free personal Google account in July 2026, searching the Google Workspace Marketplace from Extensions > Add-ons > Get add-ons returned 154 results for \"ChatGPT\" and none of them were published by OpenAI. OpenAI's own documentation does describe a ChatGPT integration for Excel and Google Sheets, but that is not what a free account sees in the add-on picker."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does SUMIFS return the wrong total?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SUMIFS matches text criteria literally and does not trim whitespace. A cell containing \"Closed \" with a trailing space will not match the criterion \"Closed\", so the row is silently excluded and the total comes back lower than it should be."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I fix it without an add-on?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Use SUMPRODUCT with TRIM: =SUMPRODUCT((A2:A6=\"North\")*(TRIM(B2:B6)=\"Closed\")*C2:C6). TRIM strips leading and trailing spaces before the comparison, so rows with invisible whitespace are counted."
+          }
+        }
+      ]
+    }
+  ]
+}
+  </script>
+
+</head>
+<body>
+
+<header>
+  <div class="rule-double"></div>
+  <h1 class="masthead" style="font-size:2rem; padding:10px 0 4px"><a href="/" style="color:inherit;text-decoration:none">The Juno Desk</a></h1>
+  <div class="rule-double"></div>
+  <nav>
+    <a href="/">The Briefing</a>
+    <a href="/desk-survival/" class="active">Desk Survival</a>
+    <a href="/hr-desk/">HR Desk</a>
+    <a href="/about/">About</a>
+  </nav>
+</header>
+
+<main class="wrap article-body">
+
+  <span class="kicker">Desk Survival · Tested on camera</span>
+  <h1>ChatGPT For Google Sheets: What A Free Account Actually Gets</h1>
+  <p class="byline">The Juno Desk · 6 min read · Hands-on, July 2026</p>
+
+  <p class="standfirst">Every tutorial gives you the same three clicks to install ChatGPT's sidebar in Google Sheets. We did exactly that, on a real free account. Then we finished the job anyway — twice, for free, without an add-on.</p>
+
+  <div class="ed-note">
+    <b>TL;DR</b>: Searching the Google Workspace Marketplace for "ChatGPT" from a free personal account returned 154 add-ons and none published by OpenAI. The task still gets done two ways: upload the sheet to ChatGPT and let its Python tool compute the answer, or skip AI entirely and use <code>SUMPRODUCT</code> with <code>TRIM</code>. Both land on the same correct number.
+  </div>
+
+  <h2>The job, and why it is harder than it looks</h2>
+  <p>Five rows of sales data. Three columns: Region, Status, Amount. The question your manager asked is one sentence long — <i>what did the North region close?</i> — and the formula for it is the first one anybody learns:</p>
+
+  <div class="prompt-block"><button type="button" class="copy" onclick="navigator.clipboard.writeText(this.parentNode.innerText.replace('COPY','').trim());this.innerText='COPIED';setTimeout(()=>this.innerText='COPY',1500)">Copy</button>=SUMIFS(C2:C6,A2:A6,"North",B2:B6,"Closed")</div>
+
+  <p>It returns <b>300</b>. The correct answer is <b>600</b>. Nothing is broken, no error appears, and the number looks entirely plausible — which is exactly what makes it dangerous. One of the North rows has <code>"Closed "</code> with a trailing space, invisible in the cell, invisible in the formula bar unless you go looking for it.</p>
+
+  <div class="statcard">
+    <div class="num">300 vs 600</div>
+    <div class="lbl">Same sheet, same formula, one invisible character. SUMIFS compares text criteria literally — it does not trim whitespace for you. We measured this in a live Google Sheet, not from memory.</div>
+  </div>
+
+  <div class="pullquote">A formula that errors out is a nuisance. A formula that quietly returns half the real number is a career event.</div>
+
+  <h2>What happened when we installed the sidebar</h2>
+  <p>The published instructions are consistent everywhere: <b>Extensions → Add-ons → Get add-ons</b>, search "ChatGPT", install. So we opened a logged-in free personal Google account and did it on camera.</p>
+
+  <p>The search returned <b>154 results</b>. We went through them. <b>None were published by OpenAI.</b> Searching "OpenAI" instead did not surface an official one either. What the marketplace actually offers is a field of third-party developer add-ons that call an AI model on your behalf — most wanting an API key, a paid tier, or both.</p>
+
+  <div class="ed-note"><b>To be precise, because it matters</b>: OpenAI's own documentation does describe a ChatGPT integration for Excel and Google Sheets. We are not claiming it does not exist and we are not calling anything fake. We are reporting one specific, checkable thing: what a normal free account sees when it follows the public install steps. Those are different claims, and the gap between them is the whole story.</div>
+
+  <h2>Why the gap exists</h2>
+  <p>Feature announcements are written about the product. Tutorials are written about the announcement. Neither is written about your account. Rollouts are staged, integrations are frequently tied to paid or business tiers, and "available" in a launch post rarely means "available to everyone, today, on the free plan."</p>
+  <p>The practical consequence is not that you were lied to. It is that you can burn twenty minutes installing something, hand your spreadsheet to a stranger's add-on, and still not have the number your manager asked for.</p>
+
+  <h2>Method 1 — Let ChatGPT run real Python on your file</h2>
+  <p>This is available on the free tier and needs no add-on at all. Rather than trying to put ChatGPT inside Sheets, take the sheet to ChatGPT.</p>
+  <ol>
+    <li>In Google Sheets: <b>File → Download → Microsoft Excel (.xlsx)</b>, or connect Google Drive from inside ChatGPT and pick the file directly.</li>
+    <li>Attach the file to a new chat.</li>
+    <li>Ask for the total <i>and</i> ask it to account for messy text — the second half of that sentence is the part that saves you.</li>
+  </ol>
+
+  <div class="prompt-block"><button type="button" class="copy" onclick="navigator.clipboard.writeText(this.parentNode.innerText.replace('COPY','').trim());this.innerText='COPIED';setTimeout(()=>this.innerText='COPY',1500)">Copy</button>Using the attached spreadsheet, total the Amount column for rows where
+Region is North and Status is Closed.
+
+Before you total: strip leading and trailing whitespace from the text
+columns and treat the comparison as case-insensitive. Tell me how many
+rows matched, which rows you excluded, and whether any cell had hidden
+whitespace. Show the code you ran.</div>
+
+  <p>It does not guess at the answer — it writes and executes Python over the actual file, so the total is computed rather than predicted. The instruction to <i>show the code and the excluded rows</i> is what turns a plausible number into a checkable one.</p>
+
+  <h2>Method 2 — The formula fix, no upload, no connector</h2>
+  <p>If the data cannot leave the building, or you simply want it fixed inside the sheet, one formula does it:</p>
+
+  <div class="prompt-block"><button type="button" class="copy" onclick="navigator.clipboard.writeText(this.parentNode.innerText.replace('COPY','').trim());this.innerText='COPIED';setTimeout(()=>this.innerText='COPY',1500)">Copy</button>=SUMPRODUCT((A2:A6="North")*(TRIM(B2:B6)="Closed")*C2:C6)</div>
+
+  <p>Each comparison produces TRUE/FALSE, multiplication turns those into 1/0, and <code>SUMPRODUCT</code> adds up only the surviving amounts. The difference from <code>SUMIFS</code> is the single word <code>TRIM</code>: it strips the invisible spaces <i>before</i> the comparison happens. Same sheet, same data — now it returns <b>600</b>.</p>
+
+  <div class="statcard">
+    <div class="num">TRIM</div>
+    <div class="lbl">The entire fix. Wrap the text range being compared, not the amount range. Works in Google Sheets and Excel alike.</div>
+  </div>
+
+  <h2>The habit that catches both versions of this</h2>
+  <p>Notice what actually separated the method that worked from the method that did not. It was not intelligence, and it was not the tool. In both working methods, <b>something normalized the text before comparing it</b> — ChatGPT because we told it to, the formula because <code>TRIM</code> is doing it explicitly. <code>SUMIFS</code> failed because nothing did.</p>
+  <p>So the habit is small and boring: when a total comes back lower than you expected, do not re-read the formula first. Check whether the thing being matched is really the string you think it is. <code>=LEN(B2)</code> against the character count you expect will find a trailing space in four seconds.</p>
+
+  <div class="ed-note">
+    <b>The two-question checklist for any "new AI feature"</b>
+    <ol style="margin:6px 0 0 18px">
+      <li><b>Can I see it in my own account, on my own plan, right now?</b> Not in the announcement, not in a screenshot, not in a tutorial recorded on someone's business tier. If the answer is no, treat it as unavailable until it is.</li>
+      <li><b>Can I check the answer by a second, independent route?</b> A number produced by an AI tool and a number produced by a plain formula should agree. When they do, you can ship it. When they do not, you have learned something more valuable than the total.</li>
+    </ol>
+  </div>
+
+  <div class="stamp">✓ Verified hands-on, free account</div>
+
+  <div class="capture">
+    <h3>Get the full prompt pack.</h3>
+    <p>Every prompt in this guide plus 13 more office situations — copy, paste, done.</p>
+    <form action="/api/subscribe" method="POST">
+      <input type="hidden" name="source" value="chatgpt-sheets-article">
+      <input type="text" name="website" value="" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <input type="email" name="email" placeholder="you@company.com" required>
+      <button type="submit">Get the pack</button>
+    </form>
+  </div>
+
+  <p>Also in Desk Survival: <a href="/desk-survival/clean-excel-data-with-ai/" style="color:var(--red)">Clean messy Excel data with AI — without learning a single formula</a>.</p>
+
+</main>
+
+<footer>
+  <div class="social wrap">
+    <a href="https://www.youtube.com/@junoaihq" target="_blank" rel="noopener">YouTube</a>
+    <a href="https://www.tiktok.com/@junoaihq" target="_blank" rel="noopener">TikTok</a>
+    <a href="https://x.com/junoaihq" target="_blank" rel="noopener">X</a>
+    <a href="https://www.instagram.com/junoaihq" target="_blank" rel="noopener">Instagram</a>
+    <a href="https://www.threads.com/@junoaihq" target="_blank" rel="noopener">Threads</a>
+    <a href="https://www.facebook.com/junoaihq" target="_blank" rel="noopener">Facebook</a>
+  </div>
+  <div class="links wrap">
+    <a href="/about/">About</a>
+    <a href="/contact/">Contact</a>
+    <a href="/privacy/">Privacy Policy</a>
+    <a href="/terms/">Terms of Service</a>
+  </div>
+  <p class="fine">© 2026 The Juno Desk · junoaihq.com · Some guides include affiliate links, clearly disclosed.</p>
+</footer>
+
+</body>
+</html>
